@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./large (2).png">
+    <link rel="icon" href="./6463383.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -13,13 +13,15 @@
 <body>
     <nav>
         <div class="fixed-menu">
-            <h1 class="logo">4K</h1>
+            <h1 class="logo">Blux</h1>
             <div class="nav-links">
-                <a class="nav-link main-link active" href="#main">Главная</a>
-                <a class="nav-link about-link" href="#about">Обо мне</a>
-                <a class="nav-link skills-link" href="#skills">Навыки</a>
-                <a class="nav-link works-link" href="#works">Работы</a>
-                <a class="nav-link comments-link" href="#comments">Отзывы</a>
+                <a class="nav-link main-link active" href="#main" id="mainD">Главная</a>
+                <a class="nav-link about-link" href="#about" id="aboutD">Обо мне</a>
+                <a class="nav-link skills-link" href="#skills" id="skillsD">Навыки</a>
+                <a class="nav-link works-link" href="#works" id="worksD">Работы</a>
+                <a class="nav-link comments-link" href="#comments" id="commentsD">Отзывы</a>
+                <a class="nav-link2" id="nav-link" href="#main">English</a>
+                <a class="nav-link2 navl" id="nav-link2" href="#main">Русский</a>
             </div>
             <div class="mobile-button">
                 <img class="mobile-btn" src="img/mobile_menu.png" width="40">
@@ -28,11 +30,13 @@
             <div class="mobile-menu hide">
                 <div class="mobile-nav">
                     <div class="mobile-nav-links">
-                        <a class="nav-link" href="#main">Главная</a>
-                        <a class="nav-link" href="#about">Обо мне</a>
-                        <a class="nav-link" href="#skills">Навыки</a>
-                        <a class="nav-link" href="#works">Работы</a>
-                        <a class="nav-link" href="#comments">Отзывы</a>
+                        <a class="nav-link" href="#main" id="mainD">Главная</a>
+                        <a class="nav-link" href="#about" id="aboutD">Обо мне</a>
+                        <a class="nav-link" href="#skills" id="skillsD">Навыки</a>
+                        <a class="nav-link" href="#works" id="worksD">Работы</a>
+                        <a class="nav-link" href="#comments" id="commentsD">Отзывы</a>
+                        <a class="nav-link2" id="nav-link" href="#main">English</a>
+                        <a class="nav-link2 navl" id="nav-link2" href="#main">Русский</a>
                     </div>
                 </div>
             </div>
@@ -42,49 +46,47 @@
     <section id="main">
         <div class="main-block">
             <div class="planet"></div>
-            <img src="./img/maskot.png" width="125">
             <div class="main-content">
-                <h1 class="main-title">LAKATRON4K</h1>
-                <p class="main-subtitle">личная страница разработчика</p>
+                <h1 class="main-title">BLUX</h1>
+                <p class="main-subtitle" id="GG">личная страница разработчика</p>
             </div>
             <div class="button">
-                <a href="https://lakatron4k.github.io/Info/">Подробнее</a>  
+                <a href="" id="button-main">Подробнее</a>  
             </div>
         </div>
         <div class="moving-planet"></div>
     </section>
 
     <section id="about">
-        <h1 class="title">ОБО МНЕ</h1>
+        <h1 class="title" id="titleDD">ОБО МНЕ</h1>
             <div class="about-block">
                 <div class="about-content">
                     <div class="about-text">
-                        <p class="about-title"> Меня зовут LAKATRON4K. 
+                        <p class="about-title" id="about-title"> Меня зовут LAKATRON4K. 
                             Я занимаюсь разработкой современных 
                             сайтов и моделизацией. <br><br>
                             Мне нравится создавать интересные и 
                             современные проекты.
                         </p>
                         <div class="button">
-                            <a href="#skills">Мои навыки</a>  
+                            <a href="#skills" id="skills-D">Мои навыки</a>  
                         </div>
                     </div>
                 </div>
                 <div class="about-card">
-                    <img src="minecraft-legends_p1rx.1200.jpg">
-                    <p>Где живу: Яссы</p>
-                    <p>Возраст: 12</p>
-                    <p>Дата рождения: 2012</p>
+                    <img class="img-about" src="./6463383.png">
+                    <p id="about-p">Где живу: Румыния</p>
+                    <p id="about-pp">Возраст: 16</p>
                 </div>
             </div>
             <div class="moving-cloud"></div>
     </section>
 
     <section id="skills">
-        <h1 class="title">НАВЫКИ</h1>
+        <h1 class="title" id="title">НАВЫКИ</h1>
         <div class="skills-block">
             <div class="skills-card">
-                <p> ЭТОТ САЙТ Я ЗДЕЛАЛ В GitHub, И ТАМ ЖЕ ЗАПОСТИЛ.
+                <p id="skills-p"> ЭТОТ САЙТ Я ЗДЕЛАЛ В GitHub, И ТАМ ЖЕ ЗАПОСТИЛ.
                 </p>
                 <div class="languages">
                     <img src="img/html.png" width="70">
@@ -92,46 +94,40 @@
                     <img src="img/js.png" width="70">
                 </div>
                 <div class="button">
-                    <a href="https://lakatron4k.github.io/POWERS/">Смотреть работы</a>  
+                    <a id="buttonB">Смотреть работы</a>  
                 </div>
             </div>
         </div>
     </section>
 
     <section id="works">
-        <h1 class="title">РАБОТЫ</h1>
+        <h1 class="title" id="titleD">РАБОТЫ</h1>
         <div class="works-block">
-            <img src="article_image_brawlstars_1.0.jpg" >
-            <img src="img/work2.png">
-            <img src="4153849.webp">
+            <a href="https://blux-sites.github.io/Time/" class="Photo"><img src="./Снимок экрана 2025-04-04 195616.png"></a>
+            <a href="https://blux-sites.github.io/Fatumba/" class="Photo"><img src="./Снимок экрана 2025-04-04 195711.png"></a>
+            <a href="https://blux-sites.github.io/WD/" class="Photo"><img src="./Снимок экрана 2025-04-04 195734.png"></a>
         </div>
     </section>
 
     <section id="comments">
-        <h1 class="title">ОТЗЫВЫ</h1>
+        <h1 class="title" id="titleDDD">ОТЗЫВЫ</h1>
         <div class="comments-block">
             <div class="comment-card">
-                <img src="img/photo1.png">
-                <h3>Владимир</h3>
-                <p>Основатель Rocket Tech School</p>
+                <img src="">
+                <h3></h3>
+                <p></p>
             </div>
             <div class="comment">
                 <p>
-                    Этот LAKATRON4K проходил обучение 
-                    веб разработке 4 месяца, 
-                    и уже создает сложные сайты!
                 </p>
             </div>
             <div class="comment-card">
-                <img src="./large-fotor-2024062618219.png">
-                <h3>Сергей</h3>
-                <p>Учитель по W3b разработке</p>
+                <img src="">
+                <h3></h3>
+                <p></p>
             </div>
             <div class="comment">
                 <p>
-                    Очень хорошо пишет код. 
-                    Отличная оптимизация сайта. 
-                    Современно, стильно, молодежно!
                 </p>
             </div>
         </div>
@@ -139,17 +135,16 @@
 
     <footer>
         <div class="footer-info">
-            <p>LAKATRON4K</p>
-            <p>Личный сайт веб разработчика</p>
+            <p>Blux</p>
+            <p id="P">Личный сайт веб разработчика</p>
         </div>
         <div class="footer-year">
-            <p>©2024</p>
+            <p>©2025</p>
         </div>
         <div class="footer-links">
-            <a href="#"><img src="img/facebook.svg"></a>
-            <a href="#"><img src="img/instagram.svg"></a>
-            <a href="#"><img src="img/telegram.svg"></a>
-            <a href="#"><img src="img/discord.svg"></a>
+            <a href="https://www.instagram.com/blux_site/"><img src="img/instagram.svg"></a>
+            <a href="t.me/Blux_Site"><img src="img/telegram.svg"></a>
+            <a href="https://discord.gg/FGVsg4au"><img src="img/discord.svg"></a>
         </div>
     </footer>
 

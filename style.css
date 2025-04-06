@@ -76,15 +76,15 @@ section{
 @keyframes updown{
     0%{
         margin-top: 69px;
-        margin-left: 525px;
+        margin-left: 205px;
     }
     50%{
         margin-top: 23px;
-        margin-left: 525px;
+        margin-left: 205px;
     }
     100%{
         margin-top: 69px;
-        margin-left: 525px;
+        margin-left: 205px;
     }
 }
 .main-subtitle{
@@ -162,7 +162,25 @@ nav{
     margin-right: 20px;
     transition-duration: 0.3s;
 }
-
+.nav-link2{
+    width: 112px;
+    height: 40px;
+    border-radius: 12px;
+    border: 2px solid #000;
+    background-color: #FFF;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-family: 'Comfortaa';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3px;
+    transition-duration: 0.3s;
+}
+.navl{
+     display: none; 
+}
 .active, .nav-link:hover{
     background-color: #BBFF2C;
     transform: scale(1.2, 1.2);
@@ -336,11 +354,7 @@ nav{
 
 /* Работы */
 
- .works-block img{
-     margin: 0 20px;
-     width: 27%;
-     box-shadow: 7px 7px 0 #000000;
- }
+
 
 /* Отзывы */
 
@@ -570,4 +584,22 @@ footer{
 
 .btn-hide{
     display: none;
+}
+.img-about{
+    width: 336px;
+    height: 206px;
+}
+ .Photo img{
+     margin: 0 20px;
+     width: 27%;
+     box-shadow: 7px 7px 0 #000000;
+ }
+ .Photo{
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.Photo img{
+    width: 80%;
+    height: 110%;
 }
